@@ -17,6 +17,7 @@ public class FrontServlet extends HttpServlet {
         String va1= request.getQueryString();
         
         // Génération de la réponse 
+        
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             out.println("<html>");
